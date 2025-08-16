@@ -1,69 +1,71 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>HTML2</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-<link rel="stylesheet" href="styles.css">
+
 <body>
-    <h1>proyecto</h1>
-    
-    <h2>header</h2>
-    <div id="logo"></div>
-    <img src="./Steam_icon_logo.svg.png" alt="imagen logo" width="100px">
-    <a href="#">Tienda</a>
-    </div>
-    </header>
-    <nav id="menu">
-        <h2>menu</h2>
-        <ul>
-            <li>
-                <a href="#">inicio</a>
-            </li>
-            <li>
-                <a href="#">categoria1</a>
-            </li>
-            <li>
-                <a href="#">categoria2</a>
-            </li>
-            <li>
-                <a href="#">categoria3</a>
-            </li>
-        </ul>
-    </nav>
 
-        <div id="content">
-            <aside id="login" class="block_aside">
-                <h2>entrar a la web</h2>
-                <form action="">
-                    <label for="">contraseña</label>
-                    <input type="password" name="contraseña" id="">
-                    <input type="submit">
-                </form>
-        </div>
-            </aside>
-        <div id="central">
-            <h2>productos</h2>
-            <div class="producto">
-                <h2>arroz</h2>
-                <p>$1000</p>
-
-                <h2>leche</h2>
-                <p>$4500</p>
-
-                <h2>aceite</h2>
-                <p>$8000</p>
+    <h1>Proyecto</h1>
+    <div id="container">
+        <header id="header">
+            <div id="logo">
+                <img src="Steam_icon_logo.svg.png" alt="imagen log">
+                <a href="#">tienda</a>
             </div>
-        </div>
-        
-        <footer id="footer">
-            <p>desarrollado por santiago quinquevedo cruz &copy; 2025</p>
-        </footer>
+        </header>
+        <nav id="menu">
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Categoria1</a></li>
+                <li><a href="#">Categoria2</a></li>
+                <li><a href="#">Categoria3</a></li>
+            </ul>
+        </nav>
+        <div id="content">
+            <aside id="lateral">
+                <div id="login" class="block_aside">
+                    <h3>Entrar a la web</h3>
+                    <form action="#">
+                        <label for="">Email</label>
+                        <input type="email" name="email" id="">
+                        <label for="">Contraseña</label>
+                        <input type="password" name="password" id="">
+                        <input type="submit" value="enviar">
+                    </form>
+                </div>
+            </aside>
 
-    <h2>menu</h2>
-    <h2>barra lateral</h2>
-    <h2>contenido</h2>
-    <h2>pie de pagina</h2>
+            <div id="central">
+                <h2>productos</h2>
+                <div class="product">
+                    <h2>Arroz</h2>
+                    <p>$1.000</p>
+                </div>
+                <div class="product">
+                    <h2>Cafe</h2>
+                    <p>$5.000</p>
+                </div>
+                <div class="product">
+                    <h2>Aceite</h2>
+                    <p>$1.500</p>
+                </div>
+                <div class="product">
+                    <h2>Leche</h2>
+                    <p>$5.000</p>
+                </div>
+            </div>
+
+            <footer id="footer">
+                <p>desarrollado por santiago quinquevedo &copy; 2025</p>
+            </footer>
+
+        </div>
+    </div>
 </body>
+
 </html>
