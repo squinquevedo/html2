@@ -81,7 +81,7 @@ background-color: white;
 }
 
 #lateral{
-    width: 15%;
+    width: 16%;
     min-height: 650px;
     float: left;
     margin-top: 20px;
@@ -91,7 +91,7 @@ background-color: white;
 
 #lateral .block_aside{
     display: block;
-    width: 90%;
+    width: 80%;
     margin: 5px auto;
     padding: 10px;
     border: 1px solid orangered;
@@ -182,7 +182,7 @@ input[type="submit"],
 }
 
 .product{
-    width: 30%;
+    width: 40%;
     border: 1px solid red;
     float: left;
     margin-left: 10px;
