@@ -60,3 +60,5 @@ CONSTRAINT fk_detalle_pedido FOREIGN KEY (id_pedido) REFERENCES t_pedidos (id_pe
 CONSTRAINT fk_detalle_pedido_producto FOREIGN KEY (id_producto) REFERENCES t_productos(id_producto)      
 )ENGINE=InnoDb;
 
+
+
